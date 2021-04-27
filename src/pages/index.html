@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    @-@include('./head.html',{title:'登录页'})
+    
+    <link rel="stylesheet" href="" type="text/css">
+    <style type="text/css">
+        .show{
+            width:100px;
+            height:100px;
+            font-size:100px;
+        }
+    </style>
+</head>
+<body>
+    @-@include('./header.html',{title:'首页',show:''})
+    <h1 class="box">我是首页</h1>
+    <input class="a b" type="text" checked="checked">
+    @-@include('./footer.html',{title:'首页'})
+</body>
+<script>
+    for(let i = 0; i < 10; i++){
+        console.log(i)
+    }
+    console.log('输出一些内容')
+</script>
+</html>

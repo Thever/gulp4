@@ -1,0 +1,1 @@
+console.log('gulp也是一款不错的web项目构建工具')

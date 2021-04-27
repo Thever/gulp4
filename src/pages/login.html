@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    @-@include('./head.html',{title:'登录页'})
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+<body>
+    <!-- 引入../components/header.html 片段作为头部 -->
+    <!-- 语法：自定义标识符include('要导入的文件路径') -->
+    <!-- 文件路径从 basepath 以后开始书写 -->
+    <!-- 可以在导入的时候传递第二个参数，传入参数的对象 -->
+    @-@include('./header.html',{title:'登录页',show:'active'})
+    <h1 class="set-color">登录页内容模块111</h1>
+    <!-- <script src="../js/login.js"></script> -->
+    <!-- 引入../components/footer.html 片段作为尾部 -->
+    @-@include('./footer.html',{title:'登录页'})
+</body>
+</html>
